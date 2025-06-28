@@ -1,0 +1,11 @@
+name: ResourcePackPlugin
+version: 1.0
+main: me.slyph.resourcepack.main.Main
+api-version: 1.16
+
+commands:
+  resp:
+    description: "Проверка доступности сайта с ресурс-паком, открывает GUI"
+    usage: "/resp"
+    permission: "resp.admin"
+    permission-message: "&cУ вас нет прав на эту команду!"
